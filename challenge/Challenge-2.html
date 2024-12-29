@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Veternary Form</legend>
+        <h3>Information of the Animal Owner</h3>
+        <div>
+          <section>
+            <label for="First_name">First Name:</label>
+            <input
+              type="text"
+              id="First_name"
+              placeholder="John"
+              required
+              name="First_name"
+            />
+          </section>
+          <section>
+            <label for="last_name">Last Name:</label>
+            <input
+              type="text"
+              id="last_name"
+              placeholder="Eltony"
+              required
+              name="last_name"
+            />
+          </section>
+          <section>
+            <label for="phone_num">Phone:</label>
+            <input
+              type="text"
+              id="phone_num"
+              placeholder="123-456-7890"
+              required
+              name="phone_num"
+            />
+          </section>
+        </div>
+        <br />
+        <h3>Gender</h3>
+        <div>
+          <section>
+            <input type="radio" id="male" name="Gender" value="male" />
+            <label for="male">Male</label>
+          </section>
+          <section>
+            <input type="radio" id="female" name="Gender" value="female" />
+            <label for="female">Female</label>
+          </section>
+        </div>
+        <br />
+        <h3>Detailed Disease Description</h3>
+        <div>
+          <section>
+            <textarea
+              name="disease_desc"
+              id="disease_desc"
+              placeholder="Write the description here..."
+              required
+              cols="30"
+              rows="5"
+            ></textarea>
+          </section>
+        </div>
+        <button>Submit</button>
+      </fieldset>
+    </form>
+    <footer><a href="index.html">Go Home</a></footer>
+  </body>
+</html>
