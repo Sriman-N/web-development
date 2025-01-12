@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox</title>
+    <style>
+      .main-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        border: 1px solid red;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      .flex-wrapper {
+        background-color: gray;
+        margin: 50px;
+        gap: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .el-1 {
+        background-color: red;
+        height: 100px;
+      }
+      .el-2 {
+        background-color: blue;
+      }
+      .el-3 {
+        background-color: greenyellow;
+      }
+      .el-4 {
+        background-color: orange;
+      }
+      .el-5 {
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-wrapper">
+      <div class="flex-wrapper">
+        <div class="el-1">HTML</div>
+        <div class="el-2">CSS</div>
+        <div class="el-3">Element</div>
+        <div class="el-4">Markup</div>
+        <div class="el-5">Language</div>
+        <div>test</div>
+      </div>
+
+      <div class="flex-wrapper">
+        <div class="el-1">HTML</div>
+        <div class="el-2">CSS</div>
+        <div class="el-3">Element</div>
+        <div class="el-4">Markup</div>
+        <div class="el-5">Language</div>
+      </div>
+    </div>
+    <div>
+      <a href="index.html">Go home</a>
+    </div>
+  </body>
+</html>

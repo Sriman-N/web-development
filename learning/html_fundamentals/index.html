@@ -4,29 +4,30 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <!--h tags are used for headings and p tags are used for paragraphs or plain. 
     H tags go from h1 to h6 where h1 is the biggest and h6 is the smallest.
     -->
-    <header>
-      <h1>HTML FUNDAMENTALS</h1>
-      <p>Created by <strong>Sriman</strong> 12/26/2024</p>
+    <header class="main-header">
+      <h1 id="first-header">HTML FUNDAMENTALS</h1>
       <!--
-      b tags format the text in bold and does not semantically emphasizes the content
-      strong tags format the text in bold and semantically emphasizes the content
-      -->
-      <img src="download.jpg" alt="tree" width="500" />
-      <img src="download (2).jpg" alt="setting" width="500" />
-
-      <a href="https://www.google.com" target="_blank">This is google</a>
-      <a href="new-page.html">New page</a>
+        b tags format the text in bold and does not semantically emphasizes the content
+        strong tags format the text in bold and semantically emphasizes the content
+        -->
       <nav>
+        <a href="new-page.html">New page</a>
         <a href="#">HTML</a>
-        <a href="#">CSS</a>
-        <a href="#">Semantics</a>
+        <a href="flexbox.html">flexbox</a>
+        <a href="#">grid</a>
       </nav>
     </header>
+    <section class="top-section">
+      <p id="creation">Created by <strong>Sriman</strong> 12/26/2024</p>
+      <img src="download.jpg" alt="tree" width="100" />
+      <img src="download (2).jpg" alt="setting" width="500" />
+    </section>
     <main>
       <section>
         <p>
@@ -49,7 +50,7 @@
       em tags are italicized and semantically emphasize the content
       -->
 
-        <h2>Hyper Text Markup Language</h2>
+        <h2 class="header">Hyper Text Markup Language</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
           voluptate consequatur rerum.
@@ -57,13 +58,15 @@
       </section>
 
       <section>
-        <h4>What is html?</h4>
-        <p>
-          <em>Lorem ipsum dolor sit amet consectetur adipisicing elit. </em
-          >Neque, libero voluptatibus. Iste sed eius, temporibus voluptas
-          molestiae eveniet ipsum quidem ratione eligendi voluptatibus deserunt!
-          Placeat harum error veniam eum nobis.
-        </p>
+        <article>
+          <h4 class="header">What is html?</h4>
+          <p id="test">
+            <em>Lorem ipsum dolor sit amet consectetur adipisicing elit. </em
+            >Neque, libero voluptatibus. Iste sed eius, temporibus voluptas
+            molestiae eveniet ipsum quidem ratione eligendi voluptatibus
+            deserunt! Placeat harum error veniam eum nobis.
+          </p>
+        </article>
         <ol>
           <li>Hyper</li>
           <li>Text</li>
@@ -77,10 +80,11 @@
           <li>Lorem</li>
         </ul>
       </section>
-    </main>
-    <footer>
       <a href="#">back to main page</a>
-      <p>Copyright &copy; Created by Sriman 2025</p>
+    </main>
+    <hr />
+    <footer>
+      <p id="copyright">Copyright &copy; Created by Sriman 2025</p>
     </footer>
   </body>
 </html>

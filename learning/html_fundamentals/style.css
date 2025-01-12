@@ -1,0 +1,113 @@
+h1,
+h2,
+h4,
+p,
+li {
+  font-family: sans-serif;
+}
+
+h1,
+h2,
+h4 {
+  color: rgb(224, 14, 14);
+}
+
+#first-header {
+  font-size: 30px;
+  font-style: italic;
+  /* flex: 1; */
+  /* text-align: center; */
+  /* margin-bottom: 16px; */
+}
+
+.top-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.main-header {
+  background-color: #f3ebeb;
+  border-bottom: 3px solid gray;
+  padding: 10px;
+  margin-bottom: 20px;
+  /* position: sticky;  */ /* makes it so that it will show when scrolling down*/
+  top: 0;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+nav a {
+  display: inline-block;
+}
+
+nav {
+  display: flex;
+  /* width: 40%; */
+  align-items: center;
+  justify-content: space-between;
+  /* flex: 1; */
+}
+h2 {
+  font-size: 50px;
+  font-weight: 900;
+}
+
+h4 {
+  font-size: 20px;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+li {
+  font-size: 20px;
+}
+
+footer p {
+  font-size: 10px;
+}
+
+#copyright {
+  color: red;
+}
+
+.main-header a {
+  padding-right: 10px;
+}
+
+a:link {
+  color: red;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #1098ab;
+}
+
+a:hover {
+  color: blue;
+  text-decoration: underline wavy;
+}
+
+a:active {
+  background-color: black;
+  color: red;
+}
+
+#creation {
+  font-size: 10px;
+}
+
+/* section article p {
+  color: red;
+}
+
+#test {
+  color: red;
+} */
